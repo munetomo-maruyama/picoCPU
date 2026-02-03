@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Mon Feb  2 14:08:42 2026
+[*]
+[dumpfile] "/home/taka/ISHI_Kai/picoCPU/SIM/tb.vcd"
+[dumpfile_mtime] "Mon Feb  2 14:05:22 2026"
+[dumpfile_size] 61037
+[savefile] "/home/taka/ISHI_Kai/picoCPU/SIM/tb.gtkw"
+[timestart] 0
+[size] 1466 983
+[pos] -1 -1
+*-24.251356 31050000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.U_TOP.
+[sst_width] 278
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 290
+@28
+tb.U_TOP.CLK
+tb.U_TOP.RES
+@22
+tb.U_TOP.U_MEM.PORTI[7:0]
+tb.U_TOP.U_MEM.PORTO[7:0]
+@28
+tb.U_TOP.U_CPU.RE
+tb.U_TOP.U_CPU.WE
+@22
+tb.U_TOP.U_CPU.ADDR[5:0]
+tb.U_TOP.U_CPU.WDATA[7:0]
+tb.U_TOP.U_CPU.RDATA[7:0]
+@28
+tb.U_TOP.U_CPU.state[2:0]
+tb.U_TOP.U_CPU.state_next[2:0]
+@22
+tb.U_TOP.U_CPU.icode[7:0]
+@28
+tb.U_TOP.U_CPU.opcode[1:0]
+@22
+tb.U_TOP.U_CPU.pc[5:0]
+@28
+tb.U_TOP.U_CPU.pc_inc
+@29
+tb.U_TOP.U_CPU.pc_jmp
+@22
+tb.U_TOP.U_CPU.regA[7:0]
+@28
+tb.U_TOP.U_CPU.regA_add
+tb.U_TOP.U_CPU.regA_ld
+[pattern_trace] 1
+[pattern_trace] 0

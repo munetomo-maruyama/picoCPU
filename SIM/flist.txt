@@ -1,0 +1,7 @@
++incdir+${DIR_SIM}
++incdir+${DIR_RTL}
+
+${DIR_SIM}/tb.sv
+${DIR_RTL}/cpu.sv
+${DIR_RTL}/mem.sv
+${DIR_RTL}/top.sv

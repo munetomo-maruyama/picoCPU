@@ -1,0 +1,2 @@
+VCD info: dumpfile tb.vcd opened for output.
+./tb.sv:113: $finish called at 12105000 (10ps)
