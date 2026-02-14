@@ -19,7 +19,7 @@
 // 11aaaaaa  STA @addr6   @addr6<--A
 
 //------------------------------
-// Cotrol State
+// Control State
 //------------------------------
 `define STATE_INIT   3'h0
 `define STATE_FETCH  3'h1
