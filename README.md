@@ -128,6 +128,7 @@ Before running, ensure the execution permission is granted to the `go_sim` file 
 ```bash
 cd SIM
 ./go_sim
+```
 
 When Icarus Verilog executes the simulation, it first compiles the RTL descriptions using the iverilog command to generate the `tb.vvp` file. Then, it inputs this file into the `vvp` command to run the simulation engine. The simulation generates a waveform file `tb.vcd`, and the message outputs are stored in the log file named `log`.
 
