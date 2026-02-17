@@ -19,7 +19,7 @@ The instruction set is shown in Table 1. Each instruction is an 8-bit code where
 *   **LDA (Load A)**: Reads data from the memory address specified by the lower 6 bits and stores it in the A register.
 *   **STA (Store A)**: Writes the contents of the A register into the memory address specified by the lower 6 bits.
 
-### Table 1: picoCPU Instruction Set
+*Table 1: picoCPU Instruction Set*
 
 | Instruction | Opcode (2 bits) | Operand (6 bits) | Description |
 | :--- | :--- | :--- | :--- |
@@ -27,5 +27,19 @@ The instruction set is shown in Table 1. Each instruction is an 8-bit code where
 | **JNZ** | 01 | Target Address | if (A != 0) PC = Target |
 | **LDA** | 10 | Memory Address | A = Memory[Addr] |
 | **STA** | 11 | Memory Address | Memory[Addr] = A |
+
+## Memory Space and I/O Ports
+
+The memory map is shown in Figure 2. The memory space consists of 64 bytes in total, with the last 2 bytes assigned as control registers for I/O ports: an 8-bit independent input port (PORTI) and an 8-bit output port (PORTO). The input level of PORTI can be read from address 0x3E, and the output level of PORTO can be set by writing to address 0x3F.
+
+<img src="doc/image/picocpu_memory_map.png" width="200" alt="picoCPU Memory Map">
+
+*Figure 2: picoCPU Memory Map*
+
+
+
+
+
+
 
 
