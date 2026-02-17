@@ -8,9 +8,7 @@ The ultimate path in logic design is to build your own CPU. In this section, we 
 
 This section explains the Instruction Set Architecture of the picoCPU. The internal CPU resources visible to the programmer are called the "Programmer's Model," and the model for the picoCPU is shown in Figure 1. It consists only of a 6-bit Program Counter (PC) and an 8-bit "A" register for data storage. The memory for this CPU is a 64-byte space addressable by a 6-bit address, where both instructions and data reside in the same space. After a reset, the PC is initialized to 0, and execution begins from the instruction at address 0.
 
-<kbd>
-  <img src="doc/image/picocpu_resource.png" width="400" alt="picoCPU Programmer's Model">
-</kbd>
+<img src="doc/image/picocpu_resource.png" width="400" alt="picoCPU Programmer's Model">
 
 *Figure 1: picoCPU Programmer's Model*
 
