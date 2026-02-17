@@ -149,7 +149,7 @@ gtkwave tb.vcd tb.gtkw
 An example of the waveform display is shown in Figure 5. Clicking on a logic hierarchy in the upper-left pane displays the signals for that hierarchy in the lower-left pane. You can add these signals to the waveform area on the right using the Append or Insert buttons. The currently displayed waveforms and their order can be saved to a configuration file via `File > Write Save File As`. The buttons at the top of the screen allow for zooming in/out and navigating through the time axis. Please explore the interface to familiarize yourself with its usage.
 As described in the program in Listing 1, the behavior of `PORTO` relative to the `PORTI` input is as expected. While `PORTI` is 0x00, `PORTO` continues to increment.
 
-<img src="doc/image/picocpu_gtkwave.png" width="600" alt="picoCPU GtkWave">
+<img src="doc/image/picocpu_gtkwave.png" width="800" alt="picoCPU GtkWave">
 
 *Figure 5: Simulation waveforms displayed in GTKWave*
 
