@@ -140,6 +140,7 @@ To verify the waveform file, use the following commands. If you do not have a wa
 gtkwave tb.vcd
 
 If you have a waveform configuration file (tb.gtkw), run:
+
 ```bash
 gtkwave tb.vcd tb.gtkw
 
